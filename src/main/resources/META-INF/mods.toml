@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="holdmyitems"
+version="1.0"
+displayName="Hold My Items (1.16.5 port)"
+authors="Shahzod (1.16.5 port), bene2212 (Forge port), thesapling (original author)"
+description='''
+Animated first-person hands and items. Backport to Minecraft 1.16.5.
+'''
+
+[[dependencies.holdmyitems]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.holdmyitems]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
